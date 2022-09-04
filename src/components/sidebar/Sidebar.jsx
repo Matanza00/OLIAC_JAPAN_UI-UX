@@ -102,6 +102,11 @@ const Sidebar = () => {
                 ))
             }
         </div>
+        <Link to='/' style={{textDecoration:'none'}}> 
+        <div className="logoutbutton">
+            LogOut
+        </div>
+        </Link>
     </div>;
 };
 

@@ -60,4 +60,24 @@
             
         }
     }
+
+    .logoutbutton{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem 3rem;
+        font-size: 1.25rem;
+        font-weight: 500;
+
+        position: absolute;
+        width: 320px;
+        height: 66px;
+        left: 0px;
+        top: 40rem;
+
+        color: #fff;
+        background: #E10602;
+
+    }
 }
